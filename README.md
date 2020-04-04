@@ -5,7 +5,9 @@
 **python > 3.6**
 
 ```bash
-pip install -r requirements.txt
+$ virtualenv env --python=python3
+$ . ./env/bin/activate
+$ pip install -r requirements.txt
 ```
 
 # Blog Post
